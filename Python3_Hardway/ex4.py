@@ -1,12 +1,13 @@
 cars = 100
-space_in_a_care = 4.0
+space_in_a_car = 4.0
 drivers = 30
 passengers  = 90
+car_driven = drivers
 cars_not_driven = cars - drivers
 carpool_capacity = car_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+average_passengers_per_car = passengers / car_driven
 
-print("There are", cars "cars available.")
+print("There are", cars, "cars available.")
 print("There are only", drivers, "drivers available.")
 print("There are only", drivers, "Drivers available.")
 print("We can transport", carpool_capacity, "people today.")
