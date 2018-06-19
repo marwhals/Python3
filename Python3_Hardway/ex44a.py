@@ -9,5 +9,5 @@ class Child(Parent):
 dad = Parent()
 son = Child()
 
-dad.override()
-son.override()
+dad.implicit()
+son.implicit()
